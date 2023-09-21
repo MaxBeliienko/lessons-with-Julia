@@ -3,68 +3,93 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@400;500&family=Reem+Kufi&display=swap"
+      rel="stylesheet"
+    />
     <link rel="icon" type="image/jpg" sizes="16x16" href="/monitor.jpg" />
+    <link rel="stylesheet" href="./css/styles.css" />
     <title>Internet</title>
   </head>
   <body>
     <header>
       <nav>
-        <a href="/index.html">World.Net</a>
+        <a class="logo" href="/index.html">World.Net</a>
         <ul>
-          <li><a href="/index.html">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#Reviews">Reviews</a></li>
-          <li><a href="/tarrifs.html">Tarrifs</a></li>
-          <li><a href="#Contacts">Contacts</a></li>
+          <li>
+            <a class="header-nav-item-link" href="/index.html"
+              ><span class="header-nav-item-link-span">Home</span></a
+            >
+          </li>
+          <li><a class="header-nav-item-link" href="#about">About</a></li>
+          <li><a class="header-nav-item-link" href="#Reviews">Reviews</a></li>
+          <li>
+            <a class="header-nav-item-link" href="/tarrifs.html">Tarrifs</a>
+          </li>
+          <li><a class="header-nav-item-link" href="#Contacts">Contacts</a></li>
         </ul>
       </nav>
       <address>
-        <a href="tel:88006549732">8 (800) 654-97-32</a>
+        <a class="header-address" href="tel:88006549732">8 (800) 654-97-32</a>
       </address>
     </header>
     <main>
-      <section>
-        <h1>Reliable Home Internet and TV Provider</h1>
-        <p>
+      <!-- Section1 -->
+      <section class="sect1">
+        <h1 class="sect1-header">Reliable Home Internet and TV Provider</h1>
+        <p class="sect1-text">
           We work only in small towns. Thanks to this, we maintain quality and
           we will not spray
         </p>
-        <button type="button">Submit your application</button>
+        <button class="sect1-button" type="button">
+          Submit your application
+        </button>
         <img src="/images/sect1img1.png" alt="Group-Images" />
       </section>
+
+      <!-- Section2 -->
       <section>
-        <h2>Why choose our company</h2>
+        <h2 class="sect2-header">Why choose our company</h2>
         <ul>
           <li>
             <img src="" alt="" />
-            <h3>Speed</h3>
-            <p>
+            <h3 class="sect2-item-header">Speed</h3>
+            <p class="sect2-item-text">
               Thanks to GPON and a backup line, we guarantee the speed right
               under the contract
             </p>
           </li>
           <li>
             <img src="" alt="" />
-            <h3>Installation</h3>
-            <p>
+            <h3 class="sect2-item-header">Installation</h3>
+            <p class="sect2-item-text">
               We carefully mount the cable, without damaging the interior of
               your apartment or house
             </p>
           </li>
           <li>
             <img src="" alt="" />
-            <h3>Support</h3>
-            <p>
+            <h3 class="sect2-item-header">Support</h3>
+            <p class="sect2-item-text">
               Round-the-clock help in the application or via the hotline, even
               on holidays you can get an answer to your question
             </p>
           </li>
         </ul>
       </section>
-      <section id="about">
-        <img src="/images/bro.png" alt="Group-Images" />
-        <h2>We will connect today or next day</h2>
-        <p>
+
+      <!-- Section3 -->
+      <section class="sect3" id="about">
+        <img
+          src="/images/bro.png"
+          alt="Group-Images"
+          width="544"
+          height="525"
+        />
+        <h2 class="sect3-header">We will connect today or next day</h2>
+        <p class="sect3-text">
           Our coverage area is much smaller than that of large providers. This
           allows us to work quickly: 64% of subscribers receive Internet and TV
           immediately on the day of application. Even if you need to connect a
@@ -72,20 +97,28 @@
         </p>
         <ul>
           <li>
-            <p>14 536</p>
-            <p>Active subscribers throughout the region</p>
+            <h3 class="sect3-item-header">14 536</h3>
+            <p class="sect3-item-text">
+              Active subscribers throughout the region
+            </p>
           </li>
           <li>
-            <p>4,91</p>
-            <p>Average quality score for home Internet and TV</p>
+            <h3 class="sect3-item-header">4,91</h3>
+            <p class="sect3-item-text">
+              Average quality score for home Internet and TV
+            </p>
           </li>
         </ul>
       </section>
+
+      <!-- Section4 -->
       <section id="Reviews">
-        <h2>Feedbacks from our clients</h2>
-        <h3>&quot;</h3>
-        <p>&laquo;We have been using World.net for seven years&raquo;</p>
-        <p>
+        <h2 class="sect-rewies-header">Feedbacks from our clients</h2>
+        <img src="./images/simvol.png" alt="Citate" />
+        <h3 class="sect-rewies-content-header">
+          &laquo;We have been using World.net for seven years&raquo;
+        </h3>
+        <p class="sect-rewies-text">
           &laquo;We connected it for a rented apartment, and now we use it in
           ours. For 7 years, only one call was made to support - to change the
           installation address. It can be called the quality standard for modern
@@ -94,12 +127,14 @@
           line. Bonus program for regular subscribers up to 20% discount on the
           tariff plan&raquo;
         </p>
-        <a href="">Read full review </a>
+        <a class="sect-rewies-link" href="">Read full review </a>
         <img src="/images/icon.png" alt="icon" />
-        <p>H</p>
-        <h3>Douglas Hancock</h3>
-        <p>Chicago</p>
+        <p class="sect-rewies-img-content-text">H</p>
+        <h3 class="sect-rewies-img-header">Douglas Hancock</h3>
+        <p class="sect-rewies-img-text">Chicago</p>
       </section>
+
+      <!-- Section5 -->
       <section>
         <h2>Tariff offers</h2>
         <ul>
@@ -129,6 +164,8 @@
           </li>
         </ul>
       </section>
+
+      <!-- Section6 -->
       <section id="Contacts">
         <h2>Leave a request and our manager will contact you shortly</h2>
         <p>
