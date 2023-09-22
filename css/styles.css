@@ -186,3 +186,174 @@ a {
     font-weight: 400;
     line-height: 1.7;
 }
+
+/* Section-Tariff */
+
+.sect-tariff {
+    background-color: #FFF;
+}
+
+.sect-tariff-header {
+    color: #2E363E;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+.sect-tariff-item-header {
+    color: #2E363E;
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 1.1;
+}
+
+.sect-tariff-item-price {
+    color: #434B53;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: 1.1;
+}
+
+.sect-tariff-item-text {
+    color: #2E363E;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.1;
+}
+
+.sect-tariff-item-link {
+    color: #5F0A61;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.1;
+}
+
+/* Section contacts */
+
+.sect-contacts-header {
+    color: #2E363E;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+.sect-contacts-text {
+    color: #2E363E;
+    text-align: center;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 1.4;
+    letter-spacing: -0.01em;
+}
+
+.sect-contacts-item input {
+    color: #2E363E;
+    text-align: center;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 1.4;
+    letter-spacing: -0.01em;
+}
+
+.sect-contacts-button {
+    background-color: #5F0A61;
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.1;
+}
+
+.checkbox {
+}
+
+.sect-contacts-label {
+    color: #7E868E;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.3;
+}
+
+.sect-contacts-label-link {
+    color: #5F0A61;
+    text-decoration-line: underline;
+}
+
+/* Footer */
+
+.footer {
+    background-color: #5F0A61;
+}
+
+.footer-logo {
+    color: #FFF;
+    font-family: Reem Kufi;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 1.5;
+    text-transform: uppercase;
+}
+
+.footer-address-tel {
+    color: #FFF;
+    text-align: right;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.1;
+}
+
+/* Page2-tariffs */
+
+.page-tariffs-header {
+    color: #2E363E;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+.sect-header {
+    color: #2E363E;
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 1.1;
+}
+
+.sect-price {
+    color: #434B53;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: 1.1;
+}
+
+.sect-subtitle {
+    color: #2E363E;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.1;
+}
+
+.sect-subtitle-text {
+    color: #2E363E;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.1
+}
+
+.sect-subtitle-text-span {
+    color: #2E363E;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.sect-text {
+    color: #2E363E;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.4;
+}
